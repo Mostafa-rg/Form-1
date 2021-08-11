@@ -1,0 +1,77 @@
+*{
+    direction: rtl;
+    font-family: iransans;
+    font-size: 14px;
+
+}
+body{
+    background-color: #f2f2f2;
+}
+.form-list{
+    background-color: white;
+    width: 40vw;
+    margin:50px auto;
+    padding-top: 15px;
+    border-radius: 10px;
+    border: 4px dashed rgb(190, 190, 190);
+}
+input[type="password"], 
+input[type="name"], 
+input[type="text"], 
+input[type="email"]{
+    background-color: white;
+    width:100%;
+    padding: 10px;
+    padding-right: 50px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #74a1763d;
+    border-radius: 8px;
+    border-right: 3px solid #7cc27e;
+
+}
+
+input:focus{
+    background-color: #86e2894f;
+}
+input[type="checkbox"]{
+    margin: 25px 0;
+}
+button[type="submit"]{
+    margin: 25px 280px 25px 0;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+}
+button[type="submit"]:hover{
+    background-color: #3a813d;
+}
+.form-list div{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.form-list div i{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    color: rgba(170, 170, 170, 0.5);
+    font-size: 16px;
+}
+h4{
+    text-align: center;
+}
+.checkbox-div label{
+    margin-right: 5px;
+    color: #4caf50;
+}
+@font-face {
+    font-family: iransans;
+    src: url(IRANSansWeb.ttf);
+}
+
+
+
